@@ -27,7 +27,7 @@
 Added functionality to existing Budget Tracker application to allow for offline access and functionality.
 
 ## Heroku link:
-[Workout Tracker](https://warm-meadow-80270.herokuapp.com/)
+<!-- [Workout Tracker](https://warm-meadow-80270.herokuapp.com/) -->
 
 
 ## Questions
