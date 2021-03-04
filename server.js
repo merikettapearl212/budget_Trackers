@@ -17,10 +17,10 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
 });
 
 // routes
-// app.use(require("./routes/api.js"));
+app.use(require("./routes/api.js"));
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
     // Log (server-side) when our server has started
-    console.log("Server listening on: http://localhost:" + PORT);
+    console.log("Aligator listening on: http://localhost:" + PORT);
   });

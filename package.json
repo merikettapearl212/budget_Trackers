@@ -1,0 +1,26 @@
+{
+  "name": "budget_Trackers",
+  "version": "1.0.0",
+  "description": "Add functionality to our existing Budget Tracker application to allow for offline access and functionality.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merikettapearl212/budget_Trackers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merikettapearl212/budget_Trackers/issues"
+  },
+  "homepage": "https://github.com/merikettapearl212/budget_Trackers#readme"
+}
