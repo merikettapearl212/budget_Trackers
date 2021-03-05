@@ -12,10 +12,14 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
-  useNewUrlParser: true,
+    useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false
+},
+(error) => {
+  const connectionStatus = !error ? 'Success': 'Error Connecting to database';
+  console.log(connectionStatus);
 });
 
 // routes
