@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+require ("dotenv").config();
 
 const PORT = process.env.PORT || 3000;
 
@@ -10,7 +11,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/intense-forest-79036", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
