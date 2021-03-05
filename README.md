@@ -27,7 +27,7 @@
 Added functionality to existing Budget Tracker application to allow for offline access and functionality.
 
 ## Heroku link:
-[Budget Tracker App](hhttps://protected-lake-51847.herokuapp.com/)
+[Budget Tracker App](https://protected-lake-51847.herokuapp.com/)
 
 
 ## Questions
